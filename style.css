@@ -14,10 +14,13 @@ font-weight: bold;
 
 h1 {
   font-size: 32px;
+  margin: 10px;
+  line-height: 0.8;
 }
 
 h2 {
   font-size: 24px;
+  margin: 10px;
 }
 
 h3 {
@@ -46,6 +49,10 @@ a:hover {
   text-align: center;
 }
 
+.horizontal-display {
+  display: inline-block;
+}
+
 .background-box ul {
   padding: 0px 20px;
   margin: 0;
@@ -55,13 +62,15 @@ a:hover {
   display: inline-block;
   font-size: 30px;
   margin: 0px 5px;
+  vertical-align: middle;
 }
 
 #profile-pic {
-  width: 150;
-  height: 150;
+  width: 200;
+  height: 200;
   object-fit: cover;
   border-radius: 50%;
+  border: 1px solid lightgrey;
 }
 
 .btn-blue {
